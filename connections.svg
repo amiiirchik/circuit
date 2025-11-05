@@ -19,6 +19,10 @@
   font-size: 5px;
 }
 
+.xs {
+  font-size: 2.5px;
+}
+
 .layer {
   translate: -33px 15px;
 }
@@ -32,9 +36,16 @@
 }
 
 .elems {
-    translate: 3px 5px;
+    translate: 2.5px -55px;
 }
 
+.scheme {
+  translate: 20px 0px;
+}
+
+.cableTable {
+  translate: 0px -35px;
+}
 
 </style>
 </defs>
@@ -126,22 +137,107 @@
   <polyline fill="none"  points="150,267 205,267" stroke="#000000" stroke-width="0.4"/>
 
 
+<!-- Щит -->
+  <rect fill="none" x="30" y="205" width="165" height="15" stroke="#000000" stroke-width="0.4"/>
+  <text x="110" y="215" class="text mid">ЩА</text>
+
+<g class="scheme">
 
 <!-- Элементы -->
 <g class="elems">
   <rect fill="none" x="60" y="190" width="20" height="25" stroke="#000000" stroke-width="0.4"/>
-  <rect fill="none" x="100" y="190" width="20" height="25" stroke="#000000" stroke-width="0.4"/>
-  <rect fill="none" x="140" y="190" width="20" height="25" stroke="#000000" stroke-width="0.4"/>
+  <rect fill="none" x="65" y="210" width="5" height="5" stroke="#000000" stroke-width="0.4"/>
+  <rect fill="none" x="70" y="210" width="5" height="5" stroke="#000000" stroke-width="0.4"/>
+  <!-- <rect fill="none" x="165" y="190" width="20" height="25" stroke="#000000" stroke-width="0.4"/> -->
+  <!-- <rect fill="none" x="165" y="195" width="5" height="5" stroke="#000000" stroke-width="0.4"/> -->
+  <!-- <rect fill="none" x="165" y="200" width="5" height="5" stroke="#000000" stroke-width="0.4"/> -->
+  <!-- <rect fill="none" x="165" y="205" width="5" height="5" stroke="#000000" stroke-width="0.4"/> -->
+
+  <circle fill="none" cx="110" cy="210" r="5" stroke="#000000" stroke-width="0.4"/> 
+  <text x="110" y="212" class="text s">M</text>
+  <text x="67.5" y="214.3" class="text s">1</text>
+  <text x="72.5" y="214.3" class="text s">2</text>
 </g>
 
-  <circle fill="none" cx="72.5" cy="170" r="5" stroke="#000000" stroke-width="0.4"/>
-  <circle fill="none" cx="112.5" cy="170" r="5" stroke="#000000" stroke-width="0.4"/>
-  <circle fill="none" cx="152.5" cy="170" r="5" stroke="#000000" stroke-width="0.4"/>
-  <text x="72.3" y="172" class="text mid">1</text>
-  <text x="112.5" y="172" class="text mid">2</text>
-  <text x="152.5" y="172" class="text mid">3</text>
 
+  <circle fill="none" cx="72.5" cy="185" r="5" stroke="#000000" stroke-width="0.4"/>
+  <circle fill="none" cx="112.5" cy="185" r="5" stroke="#000000" stroke-width="0.4"/>
+  <!-- <circle fill="none" cx="152.5" cy="185" r="5" stroke="#000000" stroke-width="0.4"/> -->
+  <text x="72.3" y="187" class="text mid">1</text>
+  <text x="112.5" y="187" class="text mid">2</text>
+  <!-- <text x="152.5" y="187" class="text mid">3</text> -->
+  <polyline fill="none"  points="72.5,205 72.5,190" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none"  points="112.5,205 112.5,190" stroke="#000000" stroke-width="0.4"/>
+  <!-- <polyline fill="none"  points="152.5,205 152.5,190" stroke="#000000" stroke-width="0.4"/> -->
+  <polyline fill="none"  points="72.5,180 72.5,164 70,164 75,164" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none"  points="70,164 70,160" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none"  points="75,164 75,160" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none"  points="112.5,180 112.5,160" stroke="#000000" stroke-width="0.4"/>
+  <!-- <polyline fill="none"  points="152.5,180 152.5,142.5" stroke="#000000" stroke-width="0.4"/> -->
+  <!-- <polyline fill="none"  points="152.5,142.5 167.5,142.5" stroke="#000000" stroke-width="0.4"/> -->
+  <!-- <polyline fill="none"  points="152.5,147.5 167.5,147.5" stroke="#000000" stroke-width="0.4"/> -->
+  <!-- <polyline fill="none"  points="152.5,152.5 167.5,152.5" stroke="#000000" stroke-width="0.4"/> -->
+  <!-- <text x="170" y="144.3" class="text s">1</text>
+  <text x="170" y="149.3" class="text s">2</text>
+  <text x="170" y="154.3" class="text s">3</text> -->
 
+  <!-- <polyline fill="none"  points="152.5,170 150,174" stroke="#000000" stroke-width="0.2"/> -->
+  <polyline fill="none"  points="112.5,170 110,174" stroke="#000000" stroke-width="0.2"/>
+  <polyline fill="none"  points="72.5,170 70,174" stroke="#000000" stroke-width="0.2"/>
+  <polyline fill="none"  points="110,174 85,174" stroke="#000000" stroke-width="0.2"/>
+  <polyline fill="none"  points="70,174 45,174" stroke="#000000" stroke-width="0.2"/>
+  <text x="98" y="171" class="text s">МКЭШ 3x2,5</text>
+  <text x="58" y="171" class="text s">ПВС 3x0,75</text>
+  <text x="70" y="200" rotate="-90" class="text s">5</text>
+  <text x="70" y="197" rotate="-90" class="text s">м</text>
+  <text x="110" y="200" rotate="-90" class="text s">5</text>
+  <text x="110" y="197" rotate="-90" class="text s">м</text>
+  <!-- <text x="150" y="200" rotate="-90" class="text s">5</text>
+  <text x="150" y="197" rotate="-90" class="text s">м</text> -->
 
+</g>
+
+  <polyline fill="none" points="30,80 30,100" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none" points="55,80 55,100" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none" points="100,80 100,100" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none" points="145,80 145,100" stroke="#000000" stroke-width="0.4"/>
+  <!-- <polyline fill="none" points="190,80 190,100" stroke="#000000" stroke-width="0.4"/> -->
+  <polyline fill="none" translate="30px 0px" points="30,80 145,80 145,100 30,100 30,90 145,90" stroke="#000000" stroke-width="0.4"/>
+
+<g class="positionTable">
+  <text x="42.5" y="84" class="text xs">Наимен. параметра</text>
+  <text x="42.5" y="88" class="text xs">Наимен. параметра</text>
+  <text x="42.5" y="96.5" class="text xs">Позиция</text>
+  <text x="77" y="86.5" class="text xs">Датчик уровня</text>
+  <text x="77" y="96.5" class="text xs">ДУ1</text>
+  <text x="122.5" y="86.5" class="text xs">Насос</text>
+  <text x="122.5" y="96.5" class="text xs">M</text>
+  <!-- <text x="167.5" y="86.5" class="text xs">Част. преобразователь</text> -->
+  <!-- <text x="167.5" y="96.5" class="text xs">ЧП1</text> -->
+</g>
+
+<g class="cableTable">
+  <polyline fill="none" points="100,40 100,80" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none" points="120,40 120,80" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none" points="150,40 150,80" stroke="#000000" stroke-width="0.4"/>
+  <polyline fill="none" points="20,40 205,40 205,60 20,60 20,50 205,50 205,70 20,70 20,80 205,80" stroke="#000000" stroke-width="0.4"/>
+
+  <text x="60" y="46.5" class="text xs">Обозначение кабелей</text>
+  <text x="60" y="56.5" class="text xs">МКЭШ 3x2,5</text>
+  <text x="60" y="66.5" class="text xs">ПВС 3x0,75</text>
+  <text x="60" y="76.5" class="text xs">Гофра</text>
+  <text x="110" y="46.5" class="text xs">Длина</text>
+  <text x="110" y="56.5" class="text xs">5</text>
+  <text x="110" y="66.5" class="text xs">5</text>
+  <text x="110" y="76.5" class="text xs">10</text>
+  <text x="135" y="46.5" class="text xs">Ед.изм.</text>
+  <text x="135" y="56.5" class="text xs">м</text>
+  <text x="135" y="66.5" class="text xs">м</text>
+  <text x="135" y="76.5" class="text xs">м</text>
+  <text x="177" y="46.5" class="text xs">Прим.</text>
+
+</g>
+
+  
 
 </svg>
