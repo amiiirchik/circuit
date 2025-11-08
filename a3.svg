@@ -30,6 +30,13 @@
   translate: -15px 0;
 }
 
+#table {
+  translate: -20px 0;
+}
+
+#table2 {
+  translate: -13px 0;
+}
 
 
 </style>
@@ -152,14 +159,16 @@
 
   <polyline fill="none"  points="240,130 320,100" stroke="#000000" stroke-width="0.2"/>
   <rect fill="none" x="320" y="100" width="10" height="10" stroke="#000000" stroke-width="0.2"/>
-  <text x="325" y="106.5" class="text s">ДУ1</text>
+  <text x="323" y="98" class="text s">ДУ1</text>
+  <text x="325" y="106.5" class="text s">1</text>
 
-  <polyline fill="none"  points="185,136 210,170" stroke="#000000" stroke-width="0.2"/>
-  <rect fill="none" x="210" y="170" width="10" height="10" stroke="#000000" stroke-width="0.2"/>
-  <text x="212" y="168" class="text s">ЧП1</text>
-  <text x="215" y="176.5" class="text s">2</text>
+  <polyline fill="none"  points="185,136 210,180" stroke="#000000" stroke-width="0.2"/>
+  <rect fill="none" x="210" y="180" width="10" height="10" stroke="#000000" stroke-width="0.2"/>
+  <text x="212" y="178" class="text s">ЧП1</text>
+  <text x="215" y="186.5" class="text s">2</text>
 
-  <polyline fill="none"  points="115,73 75,45" stroke="#000000" stroke-width="0.2"/>
+<g id="table2">
+  <polyline fill="none"  points="128,73 75,45" stroke="#000000" stroke-width="0.2"/>
   <rect fill="none" x="55" y="45" width="20" height="20" stroke="#000000" stroke-width="0.2"/>
   <polyline fill="none"  points="65,45 65,65" stroke="#000000" stroke-width="0.2"/>
   <polyline fill="none"  points="55,55 75,55" stroke="#000000" stroke-width="0.2"/>
@@ -167,8 +176,10 @@
   <text x="60" y="52" class="text s">1</text>
   <text x="70" y="52" class="text s">2</text>
   <text x="60" y="62" class="text s">3</text>
+</g>
 
-  <polyline fill="none"  points="80,110 105,110" stroke="#000000" stroke-width="0.2"/>
+<g id="table">
+  <polyline fill="none"  points="80,110 125,110" stroke="#000000" stroke-width="0.2"/>
   <rect fill="none" x="60" y="110" width="20" height="20" stroke="#000000" stroke-width="0.2"/>
   <polyline fill="none"  points="70,110 70,130" stroke="#000000" stroke-width="0.2"/>
   <polyline fill="none"  points="60,120 80,120" stroke="#000000" stroke-width="0.2"/>
@@ -176,14 +187,30 @@
   <text x="65" y="117" class="text s">1</text>
   <text x="75" y="117" class="text s">2</text>
   <text x="65" y="127" class="text s">3</text>
+</g>
 
-  <polyline fill="none"  points="132.5,135 100,170" stroke="#000000" stroke-width="0.2"/>
-  <rect fill="none" x="90" y="170" width="10" height="10" stroke="#000000" stroke-width="0.2"/>
-  <text x="92" y="168" class="text s">М</text>
-  <text x="95" y="176.5" class="text s">3</text>
+  <polyline fill="none"  points="132.5,135 110,180" stroke="#000000" stroke-width="0.2"/>
+  <rect fill="none" x="100" y="180" width="10" height="10" stroke="#000000" stroke-width="0.2"/>
+  <text x="102" y="178" class="text s">М</text>
+  <text x="105" y="186.5" class="text s">3</text>
+
+
+  <polyline fill="none"  points="130,50 76,50" stroke="#000000" stroke-width="0.1"/>
+  <polyline fill="none"  points="80,50 80,160" stroke="#000000" stroke-width="0.1"/>
+  <polyline fill="none"  points="130,160 76,160" stroke="#000000" stroke-width="0.1"/>
+  <text x="96" y="78" transform="rotate(270, 100, 100)" text-anchor="middle" class="text s">5000</text>
+
+
+  <polyline fill="none"  points="90,174 90,160" stroke="#000000" stroke-width="0.1"/>
+  <polyline fill="none"  points="90,170 300,170" stroke="#000000" stroke-width="0.1"/>
+  <polyline fill="none"  points="300,174 300,160" stroke="#000000" stroke-width="0.1"/>
+  <text x="190" y="175" text-anchor="middle" class="text s">5000</text>
 
 
 
+
+
+  
 
 
 
