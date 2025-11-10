@@ -60,7 +60,7 @@
 
   <text x="367.5" y="273" class="text">Р</text>
   <text x="382.5" y="273" class="text">2</text>
-  <text x="402.5" y="273" class="text">4</text>
+  <text x="402.5" y="273" class="text">5</text>
 
   <text x="390" y="285.5" class="text">ФГБОУ ВО "КГТУ" 23-АП</text>
 
@@ -215,33 +215,41 @@
 
   <!-- Спецификация -->
   <g class="specs">
+    <polyline fill="none" points="25,306 210,306" stroke="#000000" stroke-width="0.4"/>
+    <polyline fill="none" points="25,299 210,299" stroke="#000000" stroke-width="0.4"/>
+    <polyline fill="none" points="25,291 210,291" stroke="#000000" stroke-width="0.4"/>
+    <polyline fill="none" points="25,283 210,283" stroke="#000000" stroke-width="0.4"/>
+    <polyline fill="none" points="25,275 210,275" stroke="#000000" stroke-width="0.4"/>
     <polyline fill="none" points="25,267 210,267" stroke="#000000" stroke-width="0.4"/>
     <polyline fill="none" points="25,259 210,259" stroke="#000000" stroke-width="0.4"/>
     <polyline fill="none" points="25,251 210,251" stroke="#000000" stroke-width="0.4"/>
     <polyline fill="none" points="25,243 210,243" stroke="#000000" stroke-width="0.4"/>
     <polyline fill="none" points="25,228 210,228" stroke="#000000" stroke-width="0.4"/>
 
-    <polyline fill="none" points="45,267 45,228" stroke="#000000" stroke-width="0.4"/>
-    <polyline fill="none" points="25,267 25,228" stroke="#000000" stroke-width="0.4"/>
-    <polyline fill="none" points="165,267 165,228" stroke="#000000" stroke-width="0.4"/>
-    <polyline fill="none" points="180,267 180,228" stroke="#000000" stroke-width="0.4"/>
+    <polyline fill="none" points="45,306 45,228" stroke="#000000" stroke-width="0.4"/>
+    <polyline fill="none" points="25,306 25,228" stroke="#000000" stroke-width="0.4"/>
+    <polyline fill="none" points="165,306 165,228" stroke="#000000" stroke-width="0.4"/>
+    <polyline fill="none" points="180,306 180,228" stroke="#000000" stroke-width="0.4"/>
 
     <text x="35" y="237" class="text s">Обозн.</text>
     <text x="100" y="237" class="text s">Наименование</text>
     <text x="172.5" y="237" class="text s">Кол-во</text>
     <text x="195" y="237" class="text s">Прим.</text>
 
-    <text x="35" y="249" class="text s">ДУ1</text>
-    <text x="35" y="257" class="text s">ЧП1</text>
-    <text x="35" y="265" class="text s">М</text>
+    <text x="100" y="248.5" class="text s">Щит ЩА</text>
+    <text x="35" y="265" class="text s">ЧП1</text>
+    <text x="35" y="296.5" class="text s">ДУ1</text>
+    <text x="35" y="304" class="text s">М</text>
 
-    <text x="101" y="249" class="text s">ПДУ-И-Exd поплавковый уровнемер с вых. сигналом 4…20 мА</text>
-    <text x="85" y="257" class="text s">Преобразователь частоты MEYERTEC VFD1</text>
-    <text x="68" y="265" class="text s">Насос Wilo MHI 404 DM</text>
+    <text x="85" y="265" class="text s">Преобразователь частоты MEYERTEC VFD1</text>
+    <text x="100" y="280.5" class="text s">По месту</text>
+    <text x="101" y="296.5" class="text s">ПДУ-И-Exd поплавковый уровнемер с вых. сигналом 4…20 мА</text>
     
-    <text x="172.5" y="249" class="text s">1</text>
-    <text x="172.5" y="257" class="text s">1</text>
+    <text x="68" y="304" class="text s">Насос Wilo MHI 404 DM</text>
+    
+    <text x="172.5" y="304" class="text s">1</text>
     <text x="172.5" y="265" class="text s">1</text>
+    <text x="172.5" y="296.5" class="text s">1</text>
 
 
 

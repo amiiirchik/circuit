@@ -27,12 +27,13 @@
   translate: -15px 0;
 }
 
-
+#replace {
+  translate: 0px 8px;
+}
 
 
 </style>
 </defs>
-
 
 <g transform="translate(11.5,219.5) rotate(-90, 0, 0)">
 <text x="0" y="0" class="text">Взам. инв. №</text>
@@ -49,11 +50,7 @@
 <text x="-55" y="1.5" class="text">Согласовано</text>
 
 </g>
-
-
- <title>Layer 1</title>
-
- <text x="355" y="243" class="text">15.03.04 - АК</text>
+ <text x="355" y="243" class="text">15.03.04 - АП</text>
   <text x="355" y="255.5" class="text">ФГБОУ ВО "КГТУ"</text>
   <text x="330" y="270.5" class="text"></text>
   <text x="330" y="283" class="text">Спецификация оборудования</text>
@@ -77,7 +74,7 @@
   <text x="240" y="275.5" class="text">Т.контр</text>
   <text x="240" y="265.5" class="text">Разраб.</text>
 
-  <text x="260" y="265.5" class="text">Шабанов</text>
+  <text x="260" y="265.5" class="text">Рагимов</text>
   <text x="260" y="270.5" class="text">Онучин</text>
 
 
@@ -144,7 +141,7 @@
 <polyline fill="none"  points="20,128 415,128" stroke="#000000" stroke-width="0.2"/>
 <polyline fill="none"  points="20,136 415,136" stroke="#000000" stroke-width="0.2"/>
 <polyline fill="none"  points="20,144 415,144" stroke="#000000" stroke-width="0.2"/>
-<polyline fill="none"  points="20,156 415,156" stroke="#000000" stroke-width="0.2"/>
+<polyline fill="none"  points="20,154 415,154" stroke="#000000" stroke-width="0.2"/>
 <polyline fill="none"  points="20,164 415,164" stroke="#000000" stroke-width="0.2"/>
 <polyline fill="none"  points="20,172 415,172" stroke="#000000" stroke-width="0.2"/>
 <polyline fill="none"  points="20,180 415,180" stroke="#000000" stroke-width="0.2"/>
@@ -184,81 +181,67 @@
 
 <text x="98" y="37" class="text s">Приборы и средства автоматизации</text>
 <polyline fill="1"  points="66,38 130,38" stroke="#000000" stroke-width="0.6"/>
-<text x="62" y="46" class="text s">Поплавковый уровнемер</text>
-<text x="197.5" y="46" class="text s">ПДУ-3.1</text>
+<text x="55" y="46" class="text s">Датчик уровня</text>
+<text x="197.5" y="46" class="text s">ПДУ-И-Exd</text>
 <text x="287.5" y="46" class="text s">ОВЕН</text>
-<text x="340" y="46" class="text s">2</text>
+<text x="340" y="46" class="text s">1</text>
 <text x="320" y="54" class="text s">шт</text>
-<text x="30" y="46" class="text s">LS1,2</text>
-<text x="30" y="54" class="text s">YA1</text>
-<text x="56" y="54" class="text s">Привод задвижки</text>
-<text x="197.5" y="54" class="text s">Belimo GR230A-5</text>
-<text x="287.5" y="54" class="text s">Belimo</text>
+<text x="30" y="46" class="text s">LT1</text>
+<text x="30" y="54" class="text s">UZF1</text>
+<text x="67" y="54" class="text s">Частотный преобразователь</text>
+<text x="197.5" y="54" class="text s">MEYERTEC VFD1</text>
+<text x="287.5" y="54" class="text s">ОВЕН</text>
 <text x="340" y="54" class="text s">1</text>
 <text x="320" y="46" class="text s">шт</text>
 
+<g id="replace">
 <text x="98" y="69" class="text s">Щиты</text>
 <polyline fill="1"  points="93,70 103,70" stroke="#000000" stroke-width="0.6"/>
-<text x="68" y="78" class="text s">Выключатель автоматический</text>
+<text x="68" y="78" class="text s">Автоматический выключатель</text>
 <text x="30" y="78" class="text s">QF1</text>
-<text x="197.5" y="78" class="text s">PKZM0-0,25</text>
-<text x="287.5" y="78" class="text s">Евро автоматика</text>
+<text x="197.5" y="78" class="text s">C10</text>
+<text x="287.5" y="78" class="text s">Systeme9</text>
 <text x="320" y="78" class="text s">шт</text>
 <text x="340" y="78" class="text s">1</text>
 <text x="45" y="86" class="text s">Щит</text>
-<text x="197.5" y="86" class="text s">ЩУ-С</text>
+<text x="197.5" y="86" class="text s">ЩА</text>
 <text x="287.5" y="86" class="text s">ОВЕН</text>
 <text x="320" y="86" class="text s">шт</text>
 <text x="340" y="86" class="text s">1</text>
 <text x="45" y="94" class="text s">Щит</text>
-<text x="197.5" y="94" class="text s">ЩРН-1-12</text>
-<text x="287.5" y="94" class="text s">ЗЭТО</text>
+<text x="197.5" y="94" class="text s">Щит навесной ST</text>
+<text x="287.5" y="94" class="text s">DKC</text>
 <text x="320" y="94" class="text s">шт</text>
 <text x="340" y="94" class="text s">1</text>
 
 <text x="98" y="109" class="text s">Электроаппаратура</text>
 <polyline fill="1"  points="80,110.5 116,110.5" stroke="#000000" stroke-width="0.6"/>
 <text x="57" y="118" class="text s">Клемнная коробка</text>
-<text x="197.5" y="118" class="text s">АББ МВС</text>
-<text x="287.5" y="118" class="text s">ABB Group</text>
+<text x="197.5" y="118" class="text s">IEK</text>
+<text x="287.5" y="118" class="text s">IEK</text>
 <text x="320" y="118" class="text s">шт</text>
-<text x="340" y="118" class="text s">2</text>
+<text x="340" y="118" class="text s">1</text>
 
 <text x="98" y="133" class="text s">Кабельные изделия</text>
 <polyline fill="1"  points="81,134.5 115,134.5" stroke="#000000" stroke-width="0.6"/>
-<text x="86" y="142" class="text s">Кабель экранированный с защитным шлангом 3x0,5</text>
+<text x="86" y="142" class="text s">Кабель экранированный с защитным шлангом 3x2,5</text>
 <text x="197.5" y="142" class="text s">МКЭШ</text>
-<text x="287.5" y="142" class="text s">ЭКС</text>
+<text x="287.5" y="142" class="text s">СегментЭнерго</text>
 <text x="320" y="142" class="text s">м</text>
 <text x="340" y="142" class="text s">5</text>
 
+<text x="87" y="152" class="text s">Кабель экранированный с защитным шлангом 3x0,75</text>
+<text x="197.5" y="152" class="text s">ПВС</text>
+<text x="287.5" y="152" class="text s">СегментЭнерго</text>
+<text x="320" y="152" class="text s">м</text>
+<text x="340" y="152" class="text s">5</text>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<text x="46" y="162" class="text s">Гофра</text>
+<text x="197.5" y="162" class="text s">EKF</text>
+<text x="287.5" y="162" class="text s">EKF</text>
+<text x="320" y="162" class="text s">м</text>
+<text x="340" y="162" class="text s">10</text>
+</g>
 
 </svg>
 
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
